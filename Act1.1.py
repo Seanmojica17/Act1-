@@ -37,3 +37,22 @@ else:
             print(f"Descending order: {no2}, {no3}, {no1}")
     else:
         print(f"Descending order: {no3}, {no2}, {no1}")
+
+#sort to ascend order
+if no1 <= no2:
+    if no1 <= no3:
+        if no2 <= no3:
+            print(f"Ascending order: {no1}, {no2}, {no3}")
+        else:
+            print(f"Ascending order: {no1}, {no3}, {no2}")
+    else:
+        print(f"Ascending order: {no3}, {no1}, {no2}")
+
+else:
+    if no2 <= no3:
+        if no1 <= no3:
+            print(f"Ascending order: {no2}, {no1}, {no3}")
+        else:
+            print(f"Ascending order: {no2}, {no3}, {no1}")
+    else:
+        print(f"Ascending order: {no3}, {no2}, {no1}")
